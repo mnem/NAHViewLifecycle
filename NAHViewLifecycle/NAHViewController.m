@@ -10,7 +10,19 @@
 
 #define LOG_FUNCTION_CALL [self log:__FUNCTION__]
 
+static int uniqueish = 0;
+
+@interface NAHViewController()
+
+@property (nonatomic, strong) IBOutlet UILabel *identifierLabel;
+@property (nonatomic, strong) NSString *identifier;
+
+@end
+
 @implementation NAHViewController
+
+@synthesize identifier;
+@synthesize identifierLabel;
 
 - (void)log:(const char [])__function__
 {
@@ -44,10 +56,18 @@
 
 - (void)viewDidLoad
 {
+    self.title = [NSString stringWithFormat:@"%02d %@", uniqueish++, self.title];
+    self.navigationItem.title = self.title;
+
     LOG_FUNCTION_CALL;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.title = self.title;
+    NSDate *now = [NSDate date];
+    self.identifier = [NSDateFormatter localizedStringFromDate:now dateStyle:NSDateFormatterMediumStyle timeStyle:NSDateFormatterMediumStyle];
+    if (self.identifierLabel)
+    {
+        self.identifierLabel.text = self.identifier;
+    }
 }
 
 - (void)viewDidUnload
@@ -96,6 +116,11 @@
 {
     LOG_FUNCTION_CALL;
     [self dismissModalViewControllerAnimated:YES];
+}
+
+- (IBAction)setNewRoot:(id)sender
+{
+    [UIApplication sharedApplication].keyWindow.rootViewController = [[UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:nil] instantiateInitialViewController];
 }
 
 @end
