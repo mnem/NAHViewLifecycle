@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB13492B14BF2A6D005454C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB13492A14BF2A6D005454C8 /* UIKit.framework */; };
+		BB13492D14BF2A6D005454C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB13492C14BF2A6D005454C8 /* Foundation.framework */; };
+		BB13492F14BF2A6D005454C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB13492E14BF2A6D005454C8 /* CoreGraphics.framework */; };
+		BB13493514BF2A6D005454C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB13493314BF2A6D005454C8 /* InfoPlist.strings */; };
+		BB13493714BF2A6D005454C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB13493614BF2A6D005454C8 /* main.m */; };
+		BB13493B14BF2A6D005454C8 /* NAHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB13493A14BF2A6D005454C8 /* NAHAppDelegate.m */; };
+		BB13493E14BF2A6D005454C8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB13493C14BF2A6D005454C8 /* MainStoryboard_iPhone.storyboard */; };
+		BB13494414BF2A6D005454C8 /* NAHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB13494314BF2A6D005454C8 /* NAHViewController.m */; };
+		BB13495114BF622B005454C8 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = BB13495014BF622B005454C8 /* player.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB13492614BF2A6D005454C8 /* NAHViewLifecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAHViewLifecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB13492A14BF2A6D005454C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB13492C14BF2A6D005454C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB13492E14BF2A6D005454C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB13493214BF2A6D005454C8 /* NAHViewLifecycle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NAHViewLifecycle-Info.plist"; sourceTree = "<group>"; };
+		BB13493414BF2A6D005454C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB13493614BF2A6D005454C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB13493814BF2A6D005454C8 /* NAHViewLifecycle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NAHViewLifecycle-Prefix.pch"; sourceTree = "<group>"; };
+		BB13493914BF2A6D005454C8 /* NAHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAHAppDelegate.h; sourceTree = "<group>"; };
+		BB13493A14BF2A6D005454C8 /* NAHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAHAppDelegate.m; sourceTree = "<group>"; };
+		BB13493D14BF2A6D005454C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BB13494214BF2A6D005454C8 /* NAHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAHViewController.h; sourceTree = "<group>"; };
+		BB13494314BF2A6D005454C8 /* NAHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAHViewController.m; sourceTree = "<group>"; };
+		BB13495014BF622B005454C8 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB13492314BF2A6D005454C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB13492B14BF2A6D005454C8 /* UIKit.framework in Frameworks */,
+				BB13492D14BF2A6D005454C8 /* Foundation.framework in Frameworks */,
+				BB13492F14BF2A6D005454C8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB13491B14BF2A6D005454C8 = {
+			isa = PBXGroup;
+			children = (
+				BB13493014BF2A6D005454C8 /* NAHViewLifecycle */,
+				BB13492914BF2A6D005454C8 /* Frameworks */,
+				BB13492714BF2A6D005454C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB13492714BF2A6D005454C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB13492614BF2A6D005454C8 /* NAHViewLifecycle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB13492914BF2A6D005454C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB13492A14BF2A6D005454C8 /* UIKit.framework */,
+				BB13492C14BF2A6D005454C8 /* Foundation.framework */,
+				BB13492E14BF2A6D005454C8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB13493014BF2A6D005454C8 /* NAHViewLifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				BB13493914BF2A6D005454C8 /* NAHAppDelegate.h */,
+				BB13493A14BF2A6D005454C8 /* NAHAppDelegate.m */,
+				BB13493C14BF2A6D005454C8 /* MainStoryboard_iPhone.storyboard */,
+				BB13494214BF2A6D005454C8 /* NAHViewController.h */,
+				BB13494314BF2A6D005454C8 /* NAHViewController.m */,
+				BB13493114BF2A6D005454C8 /* Supporting Files */,
+			);
+			path = NAHViewLifecycle;
+			sourceTree = "<group>";
+		};
+		BB13493114BF2A6D005454C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB13495014BF622B005454C8 /* player.png */,
+				BB13493214BF2A6D005454C8 /* NAHViewLifecycle-Info.plist */,
+				BB13493314BF2A6D005454C8 /* InfoPlist.strings */,
+				BB13493614BF2A6D005454C8 /* main.m */,
+				BB13493814BF2A6D005454C8 /* NAHViewLifecycle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB13492514BF2A6D005454C8 /* NAHViewLifecycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB13494714BF2A6D005454C8 /* Build configuration list for PBXNativeTarget "NAHViewLifecycle" */;
+			buildPhases = (
+				BB13492214BF2A6D005454C8 /* Sources */,
+				BB13492314BF2A6D005454C8 /* Frameworks */,
+				BB13492414BF2A6D005454C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NAHViewLifecycle;
+			productName = NAHViewLifecycle;
+			productReference = BB13492614BF2A6D005454C8 /* NAHViewLifecycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB13491D14BF2A6D005454C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Noise & Heat";
+			};
+			buildConfigurationList = BB13492014BF2A6D005454C8 /* Build configuration list for PBXProject "NAHViewLifecycle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB13491B14BF2A6D005454C8;
+			productRefGroup = BB13492714BF2A6D005454C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB13492514BF2A6D005454C8 /* NAHViewLifecycle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB13492414BF2A6D005454C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB13493514BF2A6D005454C8 /* InfoPlist.strings in Resources */,
+				BB13493E14BF2A6D005454C8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				BB13495114BF622B005454C8 /* player.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB13492214BF2A6D005454C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB13493714BF2A6D005454C8 /* main.m in Sources */,
+				BB13493B14BF2A6D005454C8 /* NAHAppDelegate.m in Sources */,
+				BB13494414BF2A6D005454C8 /* NAHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB13493314BF2A6D005454C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB13493414BF2A6D005454C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB13493C14BF2A6D005454C8 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB13493D14BF2A6D005454C8 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB13494514BF2A6D005454C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB13494614BF2A6D005454C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB13494814BF2A6D005454C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAHViewLifecycle/NAHViewLifecycle-Prefix.pch";
+				INFOPLIST_FILE = "NAHViewLifecycle/NAHViewLifecycle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB13494914BF2A6D005454C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAHViewLifecycle/NAHViewLifecycle-Prefix.pch";
+				INFOPLIST_FILE = "NAHViewLifecycle/NAHViewLifecycle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB13492014BF2A6D005454C8 /* Build configuration list for PBXProject "NAHViewLifecycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB13494514BF2A6D005454C8 /* Debug */,
+				BB13494614BF2A6D005454C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB13494714BF2A6D005454C8 /* Build configuration list for PBXNativeTarget "NAHViewLifecycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB13494814BF2A6D005454C8 /* Debug */,
+				BB13494914BF2A6D005454C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB13491D14BF2A6D005454C8 /* Project object */;
+}
